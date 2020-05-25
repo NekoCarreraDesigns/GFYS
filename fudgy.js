@@ -3,12 +3,12 @@ if (yumms === true) {
     alert("hell yeah!")
 } else { window.location.replace("http://www.theuselessweb.com") }
 
-document.getElementById("buyBtn").addEventListener("click", function () {
+document.addEventListener("click", function () {
 
-    function buyNow() {
+    function buyNow(buyBtn) {
         if (buyBtn === true) {
             window.location.href("purchase.html")
         }
     }
-    buyNow(buyBtn)
+
 })
