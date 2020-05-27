@@ -37,7 +37,7 @@
     text-align: center;
 }
 body {
-    background-color: coral;
+    background-color: sienna;
 }
 #aside-img {
     height: 200px;
@@ -73,4 +73,54 @@ a:hover {
     color: darkorchid;
     border-radius: 5px;
     float: right;
+}
+#flavor0 {
+    position: relative;
+    float: right;
+    height: 100px;
+    width: 200px;
+}
+#flavor1 {
+    position: relative;
+    float: right;
+    height: 100px;
+    width: 200px;
+}
+#flavor2 {
+    position: relative;
+    float: right;
+    height: 100px;
+    width: 200px;
+}
+#flavor3 {
+    position: relative;
+    float: right;
+    height: 100px;
+    width: 200px;
+}
+.subject {
+    width: 800px;
+    border-radius: 5PX;
+}
+#message-head {
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 20px;
+    
+}
+#message-body {
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 800px;
+    height: 800px;
+}
+#mailBtn {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: lightcoral;
+    color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
