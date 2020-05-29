@@ -1,9 +1,3 @@
-var yumms = confirm("do you like chocolate?")
-if (yumms === true) {
-    alert("hell yeah!")
-} else {
-    window.location.assign("http://www.theuselessweb.com")
-}
 var buyBtn = document.getElementById("buyBtn")
 
 buyBtn.addEventListener("click", function () {
